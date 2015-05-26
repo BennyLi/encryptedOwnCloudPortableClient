@@ -16,3 +16,5 @@ Currently packaged is the ownCloud client version 1.8.0 (build 4893) from https:
 
 ### 7-Zip
 For encrypted packaging a 7za.exe is included. This is the official portable one in version 9.38 beta from http://www.7-zip.org/download.html.
+
+If you ask yourself if 7-Zip is secure enough, please reefer to http://security.stackexchange.com/questions/29375/is-7-zips-aes-encryption-just-as-secure-as-truecrypts-version.

@@ -31,6 +31,9 @@ echo Starting ownCloud client. >> %LOG_FILE%
 START /WAIT ownCloudPortable\ownCloudPortable.exe >> %LOG_FILE%
 
 echo Encrypting ownCloud client and data... >> %LOG_FILE%
+:: First we need to remove the old mutable data to guarantee deletion of files.
+%SEVENEXE% d documents-sync.7z ownCloudPortable/Data/* -r -p%PASSWD% -y >> %LOG_FILE%
+%SEVENEXE% d documents-sync.7z Documents/* -r -p%PASSWD% -y >> %LOG_FILE%
 :: Explanation:
 ::   -mhe to encrypt headers so nobody can browse the archive
 ::   -mx0 to not compress the archiv (only for performance)
