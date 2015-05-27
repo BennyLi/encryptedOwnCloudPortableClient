@@ -18,3 +18,7 @@ Currently packaged is the ownCloud client version 1.8.0 (build 4893) from https:
 For encrypted packaging a 7za.exe is included. This is the official portable one in version 9.38 beta from http://www.7-zip.org/download.html.
 
 If you ask yourself if 7-Zip is secure enough, please reefer to http://security.stackexchange.com/questions/29375/is-7-zips-aes-encryption-just-as-secure-as-truecrypts-version.
+
+### Bat To Exe Converter
+To convert the start.bat to .exe I used Bat To Exe Converter version 2.2.0.0 from http://www.f2ko.de/en/b2e.php.
+Currently I need an .exe file because the PortableApps Launcher cannot handle .bat files with the [WaitForEXEN](http://portableapps.com/manuals/PortableApps.comLauncher/ref/launcher.ini/launch.html#waitforexen) setting.
