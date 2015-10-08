@@ -36,6 +36,11 @@ desktop.ini
 
 ~$*
 .~lock.*
-*.tmp
+~*.tmp
 
 *.gnucash.tmp-*
+
+.synkron.*
+.sync.ffs_db
+.symform
+.symform-store
