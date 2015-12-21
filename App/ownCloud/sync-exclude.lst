@@ -1,28 +1,17 @@
-*.filepart
 *~
-*.part
-*.crdownload
-
-*.unison*
-*csync_timedif.ctmp*
-.csync_journal.db
-.csync_journal.db.ctmp
-.owncloudsync.log
-
-.*.sw?
-.*.*sw?
-].csync-progressdatabase
-
+~$*
+.~lock.*
+~*.tmp
+]*.~*
+]Icon\r*
 ].DS_Store
 ].ds_store
 ._*
 ]Thumbs.db
 desktop.ini
 
-*.kate-swp
-
-*_conflict-*
-]*.~*
+.*.sw?
+.*.*sw?
 
 ].TemporaryItems
 ].Trashes
@@ -31,16 +20,19 @@ desktop.ini
 .apdisk
 
 .htaccess
+.directory
 
-]Icon\r*
+*.part
+*.filepart
+*.crdownload
 
-~$*
-.~lock.*
-~*.tmp
-
+*.kate-swp
 *.gnucash.tmp-*
 
 .synkron.*
 .sync.ffs_db
 .symform
 .symform-store
+.fuse_hidden*
+*.unison
+.nfs*
