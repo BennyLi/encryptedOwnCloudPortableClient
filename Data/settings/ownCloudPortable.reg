@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\ownCloud]
+@="C:\\Program Files\\ownCloud"
+"VersionMajor"=dword:00000001
+"VersionMinor"=dword:00000002
+"VersionRevision"=dword:00000000
+"VersionBuild"=dword:00000005
+
