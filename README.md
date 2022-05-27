@@ -1,3 +1,6 @@
+⚠ **DISCONTINUED** This repo has been archived and is no longer been maintained. ⚠
+
+
 # Encrypted ownCloud Portable Client
 
 This is a portable ownCloud client that runs on Windows.
